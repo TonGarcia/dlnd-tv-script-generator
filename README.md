@@ -10,11 +10,16 @@ Running Floyd:
 		# anaconda python3
 		$ source activate env-name && pip3 install -U floyd-cli
 	```
-2. Setup
+2. LogIn
+	```shell
+		$ floyd login
+	```
+3. Setup
 	```shell
 		$ floyd init dlnd-tv-script-generation 
 	```
-3. Running
+4. Running
 	```shell
-		$ floyd run --mode jupyter --env tensorflow:py3
+		$ floyd run --cpu --mode jupyter --env tensorflow-1.3
+		$ floyd run --gpu --mode jupyter --env tensorflow-1.3
 	```

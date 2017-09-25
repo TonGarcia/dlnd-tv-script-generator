@@ -6,6 +6,8 @@ embeddings/text8.zip
 face_generation/data/
 
 .ipynb_checkpoints/
+.floydexpt
+.floydignore
 
 
 *.pyc
