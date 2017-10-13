@@ -20,8 +20,8 @@ Running Floyd:
 	```
 4. Running
 	```shell
-		$ floyd run --cpu --mode jupyter --env tensorflow-1.3
-		$ floyd run --gpu --mode jupyter --env tensorflow-1.3
+		$ floyd run --cpu --mode jupyter --env tensorflow
+		$ floyd run --gpu --mode jupyter --env tensorflow
 	```
 
 Running Docker:
